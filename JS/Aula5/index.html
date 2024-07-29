@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #zona{
+            font-size: 20pt;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* text-align: center; */
+            /* padding-top: 100px; */
+            background-color: rgb(89, 24, 143);
+            color: aliceblue;
+            font-size: 50px;
+        }
+    </style>
+    <title>Eventos em JS</title>
+</head>
+<body>
+    <div id="zona">
+        Interação
+    </div>
+
+
+    <script>
+        let area = document.getElementById(`zona`)
+        area.addEventListener(`click`, clicar)
+        area.addEventListener(`mouseenter`, entrou)
+        area.addEventListener(`mouseout`, saiu)
+
+        function clicar(){
+            area.innerText = "Clicou!"
+            area.style.background = `red`
+        }
+        function entrou(){
+            area.innerText = "Entrou!"
+        }
+        function saiu(){
+            area.innerText = "Saiu!"
+        }
+    </script>
+</body>
+</html>

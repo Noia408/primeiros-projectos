@@ -1,0 +1,458 @@
+#partmeio{
+    background-image: url(/img/The\ Weeknd\'s\ Dawn\ FM\ Projected\ For\ Huge\ First\ Week\ Sales.jpg);
+    background-size: 100% auto;
+    /* background-color: black; */
+    height: 100%;
+    width: calc(100% - 331px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+}
+#meiooo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#cima{
+    width: 100%;
+    height: calc(100% - 150px);
+}
+#cimascrool{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.cimapriii{
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    flex-direction: column;
+}
+
+.cimacc{
+    width: 100%;
+    height: 280px;
+    /* background-color: blue; */
+}
+#capaartist{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#letreiro{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+#letreirooo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+.aaaaa{
+    text-decoration: none;
+}
+.aaaa{
+    border: none;
+    background-color: transparent;
+}
+.iiiii{
+    color: white;
+    font-size: 13px;
+}
+#treee{
+    color: white;
+    font-size: 14px;
+}
+#centletriro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#ceetle{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#nomedoart{
+    color: white;
+    font-size: 55px;
+}
+#verif{
+    font-size: 30px;
+    color: rgb(45, 110, 184);
+}
+.ccccc{
+    color: white;
+}
+#iooo{
+    color: white;
+    font-size: 14px;
+}
+#estadoart{
+    display: flex;
+    align-items: center;
+}
+#merdddd{
+    color: white;
+}
+#bbbtt{
+    display: flex;
+    gap: 7px;
+}
+#botao{
+    background-color: #1dbb3f;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+#botaoo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #322d2f;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+.cimamm{
+    width: 100%;
+    height: 50px;
+    background-color: #322d2f;
+    display: flex;
+    justify-content: center;
+}
+#menuppp{
+    width: 96%;
+    height: 100%;
+    /* background-color: rgb(14, 14, 13); */
+    display: flex;
+    justify-content: space-between;
+}
+.meumeioe{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* gap: 5px; */
+}
+.opmenu{
+    position: relative;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-decoration: none;
+    /* margin-right: 5px; */
+    /* margin-left: 10px; */
+}
+.opmenu::after{
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 3px;
+    height: 3px;
+    width: 0px;
+    background-color: white;
+    transition: .2s;
+}
+.opmenu:hover::after{
+    width: 40px;
+}
+.meumeiod{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+#foloo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    gap: 2px;
+}
+#folpho{
+    color: white;
+    font-size: 18px;
+}
+.texop{
+    color: white;
+}
+
+
+.cimabb{
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    background-color: #130e0d;
+}
+#faixasmm{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+}
+#numlist{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: #130e0d;
+}
+.nummlist{
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    height: 100%;
+}
+.numltex{
+    color: white;
+    font-size: 20px;
+}
+.numlte{
+    color: white;
+    margin-top: 4px;
+}
+#faixas{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin-left: 45px; */
+}
+#espafaixa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.umfaixa{
+    margin-top: 10px;
+    background-color: #130e0d;
+    width: 100%;
+    height: 65px;
+    border: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+.nfaixa{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    /* gap: 30px; */
+    border-bottom: white solid 1px;
+}
+.numusic{
+    height: 100%;
+    width: 25%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parttff{
+    height: 100%;
+    background-color: #130e0d;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wwww{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#ffomusic{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.corpofaixammm{
+    height: 100%;
+    width: 100%;
+    border-bottom: white solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.aqu{
+    color: white;
+    font-size: 15px;
+}
+#awuuu{
+    color: white;
+    font-size: 17px;
+}
+.corpofaixafff{
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: white solid 1px;
+    /* background-color: blueviolet; */
+}
+.nummm{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.mummm{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#baixo{
+    width: 100%;
+    background-color: #130e0d;
+    align-items: end;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.fotomusic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5px; */
+    height: 100%;
+    width: 220px;
+    background-color: #130e0d;
+}
+.fotomm{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    
+}
+.photom{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.contmusic{
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #130e0d;
+}
+
+
+
+.musicbttn{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.musiccontrol{
+    width: 100%;
+    height: 120px;
+    background-color: #130e0d;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.booolado{
+    display: flex;
+    gap: 4px;
+}
+#connnn{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+#ladosbtn{
+    font-size: 25px;
+    color: white;
+}
+.btnnn{
+    background-color: #130e0d;
+    border: none;
+}
+#trocarmm{
+    font-size: 20px;
+    color: white;
+}
+#avanm{
+    font-size: 25px;
+    color: white;
+}
+.trocarm{
+    background-color: #130e0d;
+    border: none;
+}
+#pausebtn{
+    color: #130e0d;
+    font-size: 30px;
+}
+#partbause{
+    border: white solid 2px;
+    border-radius: 98px;
+}
+#pausebb{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: #130e0d solid 2px;
+    border-radius: 100px;
+}
+
+#barrabr{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 6px;
+}
+#barrabranca{
+    width: 100%;
+    height: 7px;
+    background-color: white;
+    border-radius: 10px;
+}
+.numcron{
+    color: white;
+    font-size: 15px;
+}

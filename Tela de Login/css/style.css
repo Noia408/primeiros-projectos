@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.geral{
+    background-color: rgb(22, 21, 31);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.geralesquerdo{
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.geraldireito {
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logincard{
+    padding: 30px 35px;
+    background-color: rgb(40, 37, 59);
+    box-shadow: 0px 30px 20px black;
+    border-radius: 20px;
+}
+.hh{
+    font-weight: 800px;
+    margin-left: 30px;
+}
+.pass, .nome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.pass{
+    margin-top: 20px;
+}
+input{
+    padding: 10px 70px 10px 10px;
+    box-shadow: 0px 15px 7px black;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: rgb(56, 40, 65);
+}
+.btn{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Velocidade</title>
+</head>
+<body>
+    <h1>Calculo de Velocidade</h1>
+    <p>Limite de Velocidade e de <b>60km/h</b></p>
+    coloque aqui a sua velocidade:<input type="number" name="" id="velo">Km/h
+    <button id="btn">calcular</button>
+    <div id="demo"></div>
+
+    <script>
+        var botao = document.querySelector(`button#btn`)
+        var desc = document.querySelector(`div#demo`)
+        botao.addEventListener("click", click)
+
+        function click() {
+            var veloc = document.querySelector(`input#velo`)
+            var num = Number(veloc.value)
+            desc.innerHTML = `Sua velocidade actual e: ${num} km/h`
+            if (num > 60){
+                desc.innerHTML += `<p>Voce Excedeu o limite de velocidade, entao sera <strong>MULTADO</strong></p>`
+            }
+            desc.innerHTML += `<p>Use sempre o Cinto de Segurança</p>`
+        }
+    </script>
+</body>
+</html>

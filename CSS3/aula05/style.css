@@ -1,0 +1,14 @@
+.d1, .d2, .d3{
+        border: 10px dotted black;
+        padding: 50px;
+        background-image: url(objectos.jpg);
+}
+.d1{
+    background-clip: border-box;
+}
+.d2{
+    background-clip: padding-box;
+}
+.d3{
+    background-clip: content-box;
+}

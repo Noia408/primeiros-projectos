@@ -1,0 +1,9 @@
+body{
+    background-image: url(objectos.jpg), url(images.png);
+    background-repeat: repeat, no-repeat;
+    background-size: 500px, 300px;
+    background-attachment: scroll, fixed;
+}
+p{
+    color: white;
+}

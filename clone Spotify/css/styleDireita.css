@@ -1,0 +1,55 @@
+#partdireita{
+    background-color: #1e1616;
+    height: 100%;
+    width: 66px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+#maind{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#dircima{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+.dirccc{
+    display: flex;
+    align-items: center;
+    margin-top: 40%;
+}
+.dircca{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dirccab{
+    text-decoration: none;
+}
+#diricon{
+    font-size: 17px;
+    color: white;
+}
+.dirtex{
+    color: white;
+    font-size: 13px;
+}
+
+#dircbaixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dirccbaixo{
+    margin-bottom: 37%;
+}
+#imguser{
+    border-radius: 100%;
+    border: #130e0d solid 1px;
+}

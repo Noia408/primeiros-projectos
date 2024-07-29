@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .corpo{
+            height: 500px;
+            width: 400px;
+            background: rgb(57,67,179);
+            background: linear-gradient(90deg, rgba(57,67,179,1) 16%, rgba(29,195,185,1) 97%);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            padding-left: 20px;
+        }
+        h1{
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 40px;
+            font-size: 60px;
+        }
+        #name{
+            /* margin-top: 90px; */
+            height: 27px;
+            width: 360px;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            padding-left: 20px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        #email{
+            height: 27px;
+            width: 360px;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            padding-left: 20px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        #pass{
+            height: 27px;
+            width: 360px;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            padding-left: 20px;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        span{
+            color: white;
+            font-size: 25px;
+            font-family: sans-serif;
+        }
+        .btn{
+            margin-top: 20px;
+            height: 45px;
+            width: 150px;
+            margin-left: 115px;
+            border-radius: 10px;
+            border: none;
+            color: linear-gradient(90deg, rgba(57,67,179,1) 16%, rgba(29,195,185,1) 97%);
+            color: rgb(57,67,179);
+            font-size: 20px;
+        }
+    </style>
+    <title>Formulario de Entrada</title>
+</head>
+<body>
+    <div class="corpo">
+        <h1>Login</h1>
+        <span>Nome</span>
+        <input type="text" name="" id="name">
+        <span>Email</span>
+        <input type="email" name="" id="email">
+        <span>Password</span>
+        <input type="password" name="" id="pass">
+        <button class="btn">Entrar</button>
+    </div>
+
+
+
+    <script>
+        let name = document.getElementById(`name`)
+        let email = document.getElementById(`email`)
+        let password = document.getElementById(`pass`)
+        let botao = document.getElementsByClassName(`btn`)[0]
+        botao.addEventListener(`click`, login)
+
+        function login(){
+            alert("Seu nome é: " + name.value + "e seu Email: " + email.value)
+        }
+        
+    </script>
+</body>
+</html>
